@@ -1,0 +1,5 @@
+1.- Suponiendo que mi guion se llamaría "guión" ejectuaría la orden en el terminal: bash guion &
+2.- Para ello usaré el comando top para encontrar la id del proceso, en el caso práctico de un guion que acabo de crear este es: 6808
+    Otra manera más corta de lograr esto es dado que el guion esta en segundo plano usando el siguiente comando el resultado es el mismo: echo $!
+3.- Usare el comando: kill IdDelPrograma, en mi caso el comando seria: kill 6808
+4.- Para este caso la opcion adecuada es el comando top donde podemos ver la id de más programas además de los consumos de ram, cpu y el tiempo que llevan en ejecucion además de otros datos
